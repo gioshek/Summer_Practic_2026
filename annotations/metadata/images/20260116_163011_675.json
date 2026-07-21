@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "source_relative_path": "images/20260116_163011_675.bmp",
+  "source_mode_used_for_editing": "raw",
+  "source_root_used_for_editing": "/home/georgy/SummerPractic2026/candy_quality_control/data/raw/frontlight",
+  "mask_relative_path": "pixel_masks/images/20260116_163011_675.png",
+  "width": 2048,
+  "height": 2048,
+  "status": "complete",
+  "pixel_counts": {
+    "background": 883172,
+    "candy_core": 564841,
+    "sticker": 0
+  },
+  "classes": {
+    "0": "unlabeled",
+    "1": "background",
+    "2": "candy_core",
+    "3": "sticker"
+  },
+  "saved_at_utc": "2026-07-19T14:47:19.409213+00:00"
+}
