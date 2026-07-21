@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "source_relative_path": "basler_tstRGB/RGB_white_E100000.bmp",
+  "source_mode_used_for_editing": "raw",
+  "source_root_used_for_editing": "/home/georgy/SummerPractic2026/candy_quality_control/data/raw/frontlight",
+  "mask_relative_path": "pixel_masks/basler_tstRGB/RGB_white_E100000.png",
+  "width": 1920,
+  "height": 1200,
+  "status": "complete",
+  "pixel_counts": {
+    "background": 725497,
+    "candy_core": 103418,
+    "sticker": 0
+  },
+  "classes": {
+    "0": "unlabeled",
+    "1": "background",
+    "2": "candy_core",
+    "3": "sticker"
+  },
+  "saved_at_utc": "2026-07-19T14:48:09.529410+00:00"
+}

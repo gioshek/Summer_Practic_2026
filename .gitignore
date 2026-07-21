@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Temporary archives and reports
+*.zip
+project_inventory*.txt
+
+# Intermediate README files
+README_STAGE*.md
+
+# Old development backups
+stage4_backup_v4_1/
+stage4_backup_v4_2/
+
+# Temporary directories
+output/crops/
+annotations/objects/
+annotations/previews/
