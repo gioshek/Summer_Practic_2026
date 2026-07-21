@@ -29,4 +29,3 @@ stage4_backup_v4_2/
 # Temporary directories
 output/crops/
 annotations/objects/
-annotations/previews/
