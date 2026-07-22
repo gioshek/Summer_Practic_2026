@@ -1,7 +1,0 @@
-input_dir: data/sample/frontlight
-audit_output_dir: output/stage1_audit
-annotation_output_dir: data/annotation_images
-annotation_image_count: 12
-recursive: true
-contact_sheet_columns: 3
-thumbnail_width: 360

@@ -1,7 +1,0 @@
-window_width: 1400
-window_height: 850
-initial_brush_radius: 18
-overlay_alpha: 0.45
-autosave_on_navigation: true
-max_undo_steps: 12
-minimum_labeled_pixels: 200

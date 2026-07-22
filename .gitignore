@@ -4,28 +4,38 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# Virtual environment
+# Окружение
 venv/
 .venv/
+venv_yolo/
+.venv-yolo/
 
-# Editors
+# IDE
 .vscode/
 .idea/
 
-# System files
+# Системные файлы
 .DS_Store
 
-# Temporary archives and reports
+# Полный исходный датасет хранится локально
+data/raw/
+
+# Изображения подготовленного YOLO-датасета пока не загружаются
+yolo/dataset/images/**/*.bmp
+yolo/dataset/images/**/*.png
+yolo/dataset/images/**/*.jpg
+yolo/dataset/images/**/*.jpeg
+
+# Результаты запусков
+runs/
+yolo/runs/
+yolo/results/*
+!yolo/results/.gitkeep
+
+# Кэши Ultralytics
+*.cache
+
+# Временные файлы
 *.zip
-project_inventory*.txt
-
-# Intermediate README files
-README_STAGE*.md
-
-# Old development backups
-stage4_backup_v4_1/
-stage4_backup_v4_2/
-
-# Temporary directories
-output/crops/
-annotations/objects/
+*.tar
+*.tar.gz
