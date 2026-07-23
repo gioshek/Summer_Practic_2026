@@ -40,3 +40,6 @@ yolo/results/*
 *.tar
 *.tar.gz
 yolo/audit/contact_sheets/
+yolo/annotation/pilot_upload/
+yolo/annotation/cvat_exports/
+yolo/annotation/qa_stage5/
