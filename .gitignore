@@ -39,3 +39,4 @@ yolo/results/*
 *.zip
 *.tar
 *.tar.gz
+yolo/audit/contact_sheets/

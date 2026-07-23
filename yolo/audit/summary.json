@@ -1,0 +1,26 @@
+{
+  "expected_count": 594,
+  "actual_count": 594,
+  "count_matches": true,
+  "readable_count": 594,
+  "unreadable_count": 0,
+  "non_image_file_count": 0,
+  "total_size_bytes": 6004543820,
+  "total_size_gib": 5.5922,
+  "group_counts": {
+    "basler_120126": 50,
+    "basler_OldObj": 88,
+    "basler_tstRGB": 5,
+    "images": 451
+  },
+  "dimension_counts": {
+    "1920x1200": 143,
+    "2048x2048": 451
+  },
+  "missing_groups": [],
+  "unexpected_groups": [],
+  "exact_duplicate_group_count": 0,
+  "exact_duplicate_file_count": 0,
+  "near_duplicate_pair_count": 1297,
+  "contact_sheet_page_count": 32
+}
