@@ -1,0 +1,20 @@
+
+D23
+===
+Изображений: 23
+Файлов меток: 22
+Wrapped: 529
+Unwrapped: 162
+Всего рамок: 691
+YAML: /home/georgy/SummerPractic2026/candy_quality_control/yolo/datasets/learning_curve/d23/dataset.yaml
+
+D50
+===
+Изображений: 50
+Файлов меток: 49
+Wrapped: 1431
+Unwrapped: 334
+Всего рамок: 1765
+YAML: /home/georgy/SummerPractic2026/candy_quality_control/yolo/datasets/learning_curve/d50/dataset.yaml
+
+Датасеты D23 и D50 созданы успешно.

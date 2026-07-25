@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang='ru'>
+<head>
+<meta charset='utf-8'>
+<title>D23 против D50</title>
+<style>
+body{font-family:sans-serif;margin:24px;background:#f4f4f4;color:#111}
+.item{background:white;padding:18px;margin-bottom:24px;border-radius:10px}
+img{max-width:100%;height:auto;border:1px solid #bbb}
+code{font-size:14px}
+</style>
+</head>
+<body>
+<h1>D23 против D50 на 119 изображениях</h1>
+<p><b>Слева D23, справа D50.</b> Зелёный — wrapped, красный — unwrapped.</p>
+<p>Отсутствие рамки у видимой конфеты означает визуальный пропуск модели.</p>
+<div class='item'>
+<h2>001. images/20260116_161118_395.bmp</h2>
+<p>D23: wrapped=1, unwrapped=4; D50: wrapped=1, unwrapped=1</p>
+<img src='comparisons/001__images__20260116_161118_395.jpg'>
+</div>
+<div class='item'>
+<h2>002. images/20260116_163212_222.bmp</h2>
+<p>D23: wrapped=7, unwrapped=2; D50: wrapped=6, unwrapped=3</p>
+<img src='comparisons/002__images__20260116_163212_222.jpg'>
+</div>
+<div class='item'>
+<h2>003. images/20260116_161148_219.bmp</h2>
+<p>D23: wrapped=24, unwrapped=2; D50: wrapped=24, unwrapped=2</p>
+<img src='comparisons/003__images__20260116_161148_219.jpg'>
+</div>
+<div class='item'>
+<h2>004. images/20260116_161606_370.bmp</h2>
+<p>D23: wrapped=14, unwrapped=0; D50: wrapped=13, unwrapped=1</p>
+<img src='comparisons/004__images__20260116_161606_370.jpg'>
+</div>
+<div class='item'>
+<h2>005. basler_120126/Image__2026-01-12__16-50-09.bmp</h2>
+<p>D23: wrapped=24, unwrapped=8; D50: wrapped=46, unwrapped=9</p>
+<img src='comparisons/005__basler_120126__Image__2026-01-12__16-50-09.jpg'>
+</div>
+<div class='item'>
+<h2>006. images/20260116_161131_763.bmp</h2>
+<p>D23: wrapped=6, unwrapped=1; D50: wrapped=6, unwrapped=1</p>
+<img src='comparisons/006__images__20260116_161131_763.jpg'>
+</div>
+<div class='item'>
+<h2>007. basler_120126/Image__2026-01-12__16-51-30.bmp</h2>
+<p>D23: wrapped=26, unwrapped=6; D50: wrapped=44, unwrapped=7</p>
+<img src='comparisons/007__basler_120126__Image__2026-01-12__16-51-30.jpg'>
+</div>
+<div class='item'>
+<h2>008. images/20260116_155422_332.bmp</h2>
+<p>D23: wrapped=17, unwrapped=0; D50: wrapped=19, unwrapped=1</p>
+<img src='comparisons/008__images__20260116_155422_332.jpg'>
+</div>
+<div class='item'>
+<h2>009. basler_OldObj/Image__2025-12-29__16-11-08.bmp</h2>
+<p>D23: wrapped=34, unwrapped=1; D50: wrapped=49, unwrapped=1</p>
+<img src='comparisons/009__basler_OldObj__Image__2025-12-29__16-11-08.jpg'>
+</div>
+<div class='item'>
+<h2>010. images/20260116_161117_080.bmp</h2>
+<p>D23: wrapped=6, unwrapped=0; D50: wrapped=7, unwrapped=4</p>
+<img src='comparisons/010__images__20260116_161117_080.jpg'>
+</div>
+<div class='item'>
+<h2>011. basler_OldObj/Image__2025-12-29__16-04-24.bmp</h2>
+<p>D23: wrapped=0, unwrapped=3; D50: wrapped=0, unwrapped=3</p>
+<img src='comparisons/011__basler_OldObj__Image__2025-12-29__16-04-24.jpg'>
+</div>
+<div class='item'>
+<h2>012. basler_OldObj/Image__2025-12-29__16-06-04.bmp</h2>
+<p>D23: wrapped=0, unwrapped=9; D50: wrapped=0, unwrapped=9</p>
+<img src='comparisons/012__basler_OldObj__Image__2025-12-29__16-06-04.jpg'>
+</div>
+<div class='item'>
+<h2>013. images/20260116_161104_161.bmp</h2>
+<p>D23: wrapped=2, unwrapped=1; D50: wrapped=2, unwrapped=1</p>
+<img src='comparisons/013__images__20260116_161104_161.jpg'>
+</div>
+<div class='item'>
+<h2>014. images/20260116_161354_274.bmp</h2>
+<p>D23: wrapped=13, unwrapped=8; D50: wrapped=12, unwrapped=4</p>
+<img src='comparisons/014__images__20260116_161354_274.jpg'>
+</div>
+<div class='item'>
+<h2>015. basler_120126/Image__2026-01-12__16-46-32.bmp</h2>
+<p>D23: wrapped=11, unwrapped=10; D50: wrapped=14, unwrapped=7</p>
+<img src='comparisons/015__basler_120126__Image__2026-01-12__16-46-32.jpg'>
+</div>
+<div class='item'>
+<h2>016. images/20260116_160622_597.bmp</h2>
+<p>D23: wrapped=13, unwrapped=2; D50: wrapped=14, unwrapped=1</p>
+<img src='comparisons/016__images__20260116_160622_597.jpg'>
+</div>
+<div class='item'>
+<h2>017. images/20260116_161426_797.bmp</h2>
+<p>D23: wrapped=4, unwrapped=2; D50: wrapped=5, unwrapped=3</p>
+<img src='comparisons/017__images__20260116_161426_797.jpg'>
+</div>
+<div class='item'>
+<h2>018. images/20260116_163612_472.bmp</h2>
+<p>D23: wrapped=1, unwrapped=0; D50: wrapped=1, unwrapped=1</p>
+<img src='comparisons/018__images__20260116_163612_472.jpg'>
+</div>
+<div class='item'>
+<h2>019. images/20260116_161314_689.bmp</h2>
+<p>D23: wrapped=18, unwrapped=2; D50: wrapped=20, unwrapped=2</p>
+<img src='comparisons/019__images__20260116_161314_689.jpg'>
+</div>
+<div class='item'>
+<h2>020. images/20260116_155331_134.bmp</h2>
+<p>D23: wrapped=21, unwrapped=0; D50: wrapped=22, unwrapped=1</p>
+<img src='comparisons/020__images__20260116_155331_134.jpg'>
+</div>
+<div class='item'>
+<h2>021. images/20260116_163519_482.bmp</h2>
+<p>D23: wrapped=4, unwrapped=4; D50: wrapped=2, unwrapped=3</p>
+<img src='comparisons/021__images__20260116_163519_482.jpg'>
+</div>
+<div class='item'>
+<h2>022. basler_OldObj/Image__2025-12-29__16-32-02.bmp</h2>
+<p>D23: wrapped=0, unwrapped=6; D50: wrapped=0, unwrapped=6</p>
+<img src='comparisons/022__basler_OldObj__Image__2025-12-29__16-32-02.jpg'>
+</div>
+<div class='item'>
+<h2>023. images/20260116_161133_994.bmp</h2>
+<p>D23: wrapped=0, unwrapped=3; D50: wrapped=0, unwrapped=3</p>
+<img src='comparisons/023__images__20260116_161133_994.jpg'>
+</div>
+<div class='item'>
+<h2>024. images/20260116_155405_414.bmp</h2>
+<p>D23: wrapped=30, unwrapped=0; D50: wrapped=33, unwrapped=1</p>
+<img src='comparisons/024__images__20260116_155405_414.jpg'>
+</div>
+<div class='item'>
+<h2>025. images/20260116_164015_150.bmp</h2>
+<p>D23: wrapped=36, unwrapped=3; D50: wrapped=35, unwrapped=7</p>
+<img src='comparisons/025__images__20260116_164015_150.jpg'>
+</div>
+<div class='item'>
+<h2>026. images/20260116_163747_070.bmp</h2>
+<p>D23: wrapped=12, unwrapped=3; D50: wrapped=12, unwrapped=2</p>
+<img src='comparisons/026__images__20260116_163747_070.jpg'>
+</div>
+<div class='item'>
+<h2>027. images/20260116_163348_346.bmp</h2>
+<p>D23: wrapped=2, unwrapped=1; D50: wrapped=2, unwrapped=2</p>
+<img src='comparisons/027__images__20260116_163348_346.jpg'>
+</div>
+<div class='item'>
+<h2>028. images/20260116_161627_302.bmp</h2>
+<p>D23: wrapped=1, unwrapped=1; D50: wrapped=1, unwrapped=1</p>
+<img src='comparisons/028__images__20260116_161627_302.jpg'>
+</div>
+<div class='item'>
+<h2>029. images/20260116_163031_696.bmp</h2>
+<p>D23: wrapped=40, unwrapped=1; D50: wrapped=62, unwrapped=5</p>
+<img src='comparisons/029__images__20260116_163031_696.jpg'>
+</div>
+<div class='item'>
+<h2>030. images/20260116_163557_342.bmp</h2>
+<p>D23: wrapped=1, unwrapped=0; D50: wrapped=3, unwrapped=0</p>
+<img src='comparisons/030__images__20260116_163557_342.jpg'>
+</div>
+<div class='item'>
+<h2>031. basler_OldObj/Image__2025-12-29__16-13-40.bmp</h2>
+<p>D23: wrapped=50, unwrapped=9; D50: wrapped=124, unwrapped=4</p>
+<img src='comparisons/031__basler_OldObj__Image__2025-12-29__16-13-40.jpg'>
+</div>
+<div class='item'>
+<h2>032. images/20260116_161334_712.bmp</h2>
+<p>D23: wrapped=2, unwrapped=2; D50: wrapped=2, unwrapped=2</p>
+<img src='comparisons/032__images__20260116_161334_712.jpg'>
+</div>
+<div class='item'>
+<h2>033. images/20260116_163936_426.bmp</h2>
+<p>D23: wrapped=6, unwrapped=2; D50: wrapped=2, unwrapped=5</p>
+<img src='comparisons/033__images__20260116_163936_426.jpg'>
+</div>
+<div class='item'>
+<h2>034. basler_OldObj/Image__2025-12-29__16-21-22.bmp</h2>
+<p>D23: wrapped=61, unwrapped=1; D50: wrapped=144, unwrapped=0</p>
+<img src='comparisons/034__basler_OldObj__Image__2025-12-29__16-21-22.jpg'>
+</div>
+<div class='item'>
+<h2>035. basler_120126/Image__2026-01-12__16-47-38.bmp</h2>
+<p>D23: wrapped=23, unwrapped=7; D50: wrapped=44, unwrapped=8</p>
+<img src='comparisons/035__basler_120126__Image__2026-01-12__16-47-38.jpg'>
+</div>
+<div class='item'>
+<h2>036. images/20260116_161624_173.bmp</h2>
+<p>D23: wrapped=4, unwrapped=0; D50: wrapped=5, unwrapped=2</p>
+<img src='comparisons/036__images__20260116_161624_173.jpg'>
+</div>
+<div class='item'>
+<h2>037. basler_OldObj/Image__2025-12-29__16-10-17.bmp</h2>
+<p>D23: wrapped=27, unwrapped=0; D50: wrapped=32, unwrapped=0</p>
+<img src='comparisons/037__basler_OldObj__Image__2025-12-29__16-10-17.jpg'>
+</div>
+<div class='item'>
+<h2>038. images/20260116_164000_894.bmp</h2>
+<p>D23: wrapped=29, unwrapped=0; D50: wrapped=29, unwrapped=1</p>
+<img src='comparisons/038__images__20260116_164000_894.jpg'>
+</div>
+<div class='item'>
+<h2>039. images/20260116_160647_521.bmp</h2>
+<p>D23: wrapped=1, unwrapped=1; D50: wrapped=0, unwrapped=1</p>
+<img src='comparisons/039__images__20260116_160647_521.jpg'>
+</div>
+<div class='item'>
+<h2>040. images/20260116_161152_679.bmp</h2>
+<p>D23: wrapped=2, unwrapped=3; D50: wrapped=1, unwrapped=3</p>
+<img src='comparisons/040__images__20260116_161152_679.jpg'>
+</div>
+<div class='item'>
+<h2>041. images/20260116_155349_395.bmp</h2>
+<p>D23: wrapped=16, unwrapped=2; D50: wrapped=11, unwrapped=4</p>
+<img src='comparisons/041__images__20260116_155349_395.jpg'>
+</div>
+<div class='item'>
+<h2>042. basler_OldObj/Image__2025-12-29__16-31-50.bmp</h2>
+<p>D23: wrapped=0, unwrapped=3; D50: wrapped=0, unwrapped=3</p>
+<img src='comparisons/042__basler_OldObj__Image__2025-12-29__16-31-50.jpg'>
+</div>
+<div class='item'>
+<h2>043. images/20260116_163228_690.bmp</h2>
+<p>D23: wrapped=7, unwrapped=3; D50: wrapped=5, unwrapped=2</p>
+<img src='comparisons/043__images__20260116_163228_690.jpg'>
+</div>
+<div class='item'>
+<h2>044. images/20260116_161517_388.bmp</h2>
+<p>D23: wrapped=18, unwrapped=2; D50: wrapped=18, unwrapped=5</p>
+<img src='comparisons/044__images__20260116_161517_388.jpg'>
+</div>
+<div class='item'>
+<h2>045. images/20260116_163215_346.bmp</h2>
+<p>D23: wrapped=8, unwrapped=5; D50: wrapped=7, unwrapped=5</p>
+<img src='comparisons/045__images__20260116_163215_346.jpg'>
+</div>
+<div class='item'>
+<h2>046. images/20260116_163214_016.bmp</h2>
+<p>D23: wrapped=7, unwrapped=4; D50: wrapped=8, unwrapped=3</p>
+<img src='comparisons/046__images__20260116_163214_016.jpg'>
+</div>
+<div class='item'>
+<h2>047. images/20260116_160754_759.bmp</h2>
+<p>D23: wrapped=8, unwrapped=0; D50: wrapped=9, unwrapped=1</p>
+<img src='comparisons/047__images__20260116_160754_759.jpg'>
+</div>
+<div class='item'>
+<h2>048. basler_OldObj/Image__2025-12-29__16-07-39.bmp</h2>
+<p>D23: wrapped=2, unwrapped=9; D50: wrapped=3, unwrapped=9</p>
+<img src='comparisons/048__basler_OldObj__Image__2025-12-29__16-07-39.jpg'>
+</div>
+<div class='item'>
+<h2>049. images/20260116_160754_303.bmp</h2>
+<p>D23: wrapped=8, unwrapped=1; D50: wrapped=11, unwrapped=1</p>
+<img src='comparisons/049__images__20260116_160754_303.jpg'>
+</div>
+<div class='item'>
+<h2>050. images/20260116_161608_601.bmp</h2>
+<p>D23: wrapped=11, unwrapped=2; D50: wrapped=8, unwrapped=7</p>
+<img src='comparisons/050__images__20260116_161608_601.jpg'>
+</div>
+<div class='item'>
+<h2>051. images/20260116_161102_817.bmp</h2>
+<p>D23: wrapped=18, unwrapped=1; D50: wrapped=17, unwrapped=4</p>
+<img src='comparisons/051__images__20260116_161102_817.jpg'>
+</div>
+<div class='item'>
+<h2>052. images/20260116_163813_334.bmp</h2>
+<p>D23: wrapped=21, unwrapped=0; D50: wrapped=21, unwrapped=1</p>
+<img src='comparisons/052__images__20260116_163813_334.jpg'>
+</div>
+<div class='item'>
+<h2>053. images/20260116_163332_762.bmp</h2>
+<p>D23: wrapped=3, unwrapped=2; D50: wrapped=6, unwrapped=2</p>
+<img src='comparisons/053__images__20260116_163332_762.jpg'>
+</div>
+<div class='item'>
+<h2>054. images/20260116_155335_190.bmp</h2>
+<p>D23: wrapped=5, unwrapped=3; D50: wrapped=2, unwrapped=7</p>
+<img src='comparisons/054__images__20260116_155335_190.jpg'>
+</div>
+<div class='item'>
+<h2>055. images/20260116_163318_064.bmp</h2>
+<p>D23: wrapped=7, unwrapped=2; D50: wrapped=4, unwrapped=2</p>
+<img src='comparisons/055__images__20260116_163318_064.jpg'>
+</div>
+<div class='item'>
+<h2>056. images/20260116_163555_556.bmp</h2>
+<p>D23: wrapped=8, unwrapped=2; D50: wrapped=9, unwrapped=1</p>
+<img src='comparisons/056__images__20260116_163555_556.jpg'>
+</div>
+<div class='item'>
+<h2>057. images/20260116_163402_592.bmp</h2>
+<p>D23: wrapped=3, unwrapped=1; D50: wrapped=2, unwrapped=1</p>
+<img src='comparisons/057__images__20260116_163402_592.jpg'>
+</div>
+<div class='item'>
+<h2>058. images/20260116_161411_225.bmp</h2>
+<p>D23: wrapped=25, unwrapped=0; D50: wrapped=30, unwrapped=1</p>
+<img src='comparisons/058__images__20260116_161411_225.jpg'>
+</div>
+<div class='item'>
+<h2>059. images/20260116_163321_212.bmp</h2>
+<p>D23: wrapped=1, unwrapped=0; D50: wrapped=0, unwrapped=1</p>
+<img src='comparisons/059__images__20260116_163321_212.jpg'>
+</div>
+<div class='item'>
+<h2>060. images/20260116_155454_830.bmp</h2>
+<p>D23: wrapped=2, unwrapped=1; D50: wrapped=1, unwrapped=2</p>
+<img src='comparisons/060__images__20260116_155454_830.jpg'>
+</div>
+<div class='item'>
+<h2>061. images/20260116_161337_823.bmp</h2>
+<p>D23: wrapped=0, unwrapped=3; D50: wrapped=0, unwrapped=3</p>
+<img src='comparisons/061__images__20260116_161337_823.jpg'>
+</div>
+<div class='item'>
+<h2>062. images/20260116_163242_048.bmp</h2>
+<p>D23: wrapped=1, unwrapped=2; D50: wrapped=1, unwrapped=2</p>
+<img src='comparisons/062__images__20260116_163242_048.jpg'>
+</div>
+<div class='item'>
+<h2>063. images/20260116_160719_593.bmp</h2>
+<p>D23: wrapped=16, unwrapped=8; D50: wrapped=13, unwrapped=6</p>
+<img src='comparisons/063__images__20260116_160719_593.jpg'>
+</div>
+<div class='item'>
+<h2>064. images/20260116_163948_880.bmp</h2>
+<p>D23: wrapped=4, unwrapped=2; D50: wrapped=4, unwrapped=3</p>
+<img src='comparisons/064__images__20260116_163948_880.jpg'>
+</div>
+<div class='item'>
+<h2>065. basler_OldObj/Image__2025-12-29__16-11-02.bmp</h2>
+<p>D23: wrapped=37, unwrapped=0; D50: wrapped=49, unwrapped=0</p>
+<img src='comparisons/065__basler_OldObj__Image__2025-12-29__16-11-02.jpg'>
+</div>
+<div class='item'>
+<h2>066. basler_120126/Image__2026-01-12__17-02-44.bmp</h2>
+<p>D23: wrapped=3, unwrapped=6; D50: wrapped=4, unwrapped=7</p>
+<img src='comparisons/066__basler_120126__Image__2026-01-12__17-02-44.jpg'>
+</div>
+<div class='item'>
+<h2>067. images/20260116_163022_798.bmp</h2>
+<p>D23: wrapped=11, unwrapped=4; D50: wrapped=8, unwrapped=7</p>
+<img src='comparisons/067__images__20260116_163022_798.jpg'>
+</div>
+<div class='item'>
+<h2>068. images/20260116_163826_694.bmp</h2>
+<p>D23: wrapped=23, unwrapped=0; D50: wrapped=23, unwrapped=0</p>
+<img src='comparisons/068__images__20260116_163826_694.jpg'>
+</div>
+<div class='item'>
+<h2>069. basler_OldObj/Image__2025-12-29__16-04-32.bmp</h2>
+<p>D23: wrapped=0, unwrapped=4; D50: wrapped=0, unwrapped=4</p>
+<img src='comparisons/069__basler_OldObj__Image__2025-12-29__16-04-32.jpg'>
+</div>
+<div class='item'>
+<h2>070. images/20260116_161605_473.bmp</h2>
+<p>D23: wrapped=20, unwrapped=0; D50: wrapped=22, unwrapped=1</p>
+<img src='comparisons/070__images__20260116_161605_473.jpg'>
+</div>
+<div class='item'>
+<h2>071. basler_120126/Image__2026-01-12__17-02-16.bmp</h2>
+<p>D23: wrapped=2, unwrapped=6; D50: wrapped=4, unwrapped=7</p>
+<img src='comparisons/071__basler_120126__Image__2026-01-12__17-02-16.jpg'>
+</div>
+<div class='item'>
+<h2>072. images/20260116_155408_096.bmp</h2>
+<p>D23: wrapped=1, unwrapped=1; D50: wrapped=4, unwrapped=1</p>
+<img src='comparisons/072__images__20260116_155408_096.jpg'>
+</div>
+<div class='item'>
+<h2>073. images/20260116_160646_653.bmp</h2>
+<p>D23: wrapped=7, unwrapped=2; D50: wrapped=5, unwrapped=1</p>
+<img src='comparisons/073__images__20260116_160646_653.jpg'>
+</div>
+<div class='item'>
+<h2>074. images/20260116_160803_217.bmp</h2>
+<p>D23: wrapped=0, unwrapped=1; D50: wrapped=0, unwrapped=1</p>
+<img src='comparisons/074__images__20260116_160803_217.jpg'>
+</div>
+<div class='item'>
+<h2>075. images/20260116_163610_687.bmp</h2>
+<p>D23: wrapped=21, unwrapped=0; D50: wrapped=24, unwrapped=2</p>
+<img src='comparisons/075__images__20260116_163610_687.jpg'>
+</div>
+<div class='item'>
+<h2>076. basler_120126/Image__2026-01-12__16-36-44.bmp</h2>
+<p>D23: wrapped=8, unwrapped=3; D50: wrapped=23, unwrapped=5</p>
+<img src='comparisons/076__basler_120126__Image__2026-01-12__16-36-44.jpg'>
+</div>
+<div class='item'>
+<h2>077. images/20260116_161356_064.bmp</h2>
+<p>D23: wrapped=4, unwrapped=0; D50: wrapped=3, unwrapped=1</p>
+<img src='comparisons/077__images__20260116_161356_064.jpg'>
+</div>
+<div class='item'>
+<h2>078. images/20260116_160704_900.bmp</h2>
+<p>D23: wrapped=1, unwrapped=0; D50: wrapped=1, unwrapped=1</p>
+<img src='comparisons/078__images__20260116_160704_900.jpg'>
+</div>
+<div class='item'>
+<h2>079. images/20260116_163003_658.bmp</h2>
+<p>D23: wrapped=13, unwrapped=8; D50: wrapped=19, unwrapped=7</p>
+<img src='comparisons/079__images__20260116_163003_658.jpg'>
+</div>
+<div class='item'>
+<h2>080. images/20260116_163801_776.bmp</h2>
+<p>D23: wrapped=14, unwrapped=3; D50: wrapped=10, unwrapped=6</p>
+<img src='comparisons/080__images__20260116_163801_776.jpg'>
+</div>
+<div class='item'>
+<h2>081. images/20260116_164016_935.bmp</h2>
+<p>D23: wrapped=1, unwrapped=4; D50: wrapped=1, unwrapped=4</p>
+<img src='comparisons/081__images__20260116_164016_935.jpg'>
+</div>
+<div class='item'>
+<h2>082. images/20260116_161546_357.bmp</h2>
+<p>D23: wrapped=12, unwrapped=0; D50: wrapped=9, unwrapped=1</p>
+<img src='comparisons/082__images__20260116_161546_357.jpg'>
+</div>
+<div class='item'>
+<h2>083. images/20260116_163534_626.bmp</h2>
+<p>D23: wrapped=6, unwrapped=5; D50: wrapped=4, unwrapped=7</p>
+<img src='comparisons/083__images__20260116_163534_626.jpg'>
+</div>
+<div class='item'>
+<h2>084. images/20260116_161048_137.bmp</h2>
+<p>D23: wrapped=22, unwrapped=3; D50: wrapped=23, unwrapped=5</p>
+<img src='comparisons/084__images__20260116_161048_137.jpg'>
+</div>
+<div class='item'>
+<h2>085. basler_OldObj/Image__2025-12-29__16-14-00.bmp</h2>
+<p>D23: wrapped=53, unwrapped=7; D50: wrapped=126, unwrapped=5</p>
+<img src='comparisons/085__basler_OldObj__Image__2025-12-29__16-14-00.jpg'>
+</div>
+<div class='item'>
+<h2>086. basler_OldObj/Image__2025-12-29__16-32-14.bmp</h2>
+<p>D23: wrapped=0, unwrapped=9; D50: wrapped=0, unwrapped=9</p>
+<img src='comparisons/086__basler_OldObj__Image__2025-12-29__16-32-14.jpg'>
+</div>
+<div class='item'>
+<h2>087. images/20260116_163013_006.bmp</h2>
+<p>D23: wrapped=10, unwrapped=2; D50: wrapped=10, unwrapped=4</p>
+<img src='comparisons/087__images__20260116_163013_006.jpg'>
+</div>
+<div class='item'>
+<h2>088. images/20260116_163814_650.bmp</h2>
+<p>D23: wrapped=9, unwrapped=2; D50: wrapped=8, unwrapped=2</p>
+<img src='comparisons/088__images__20260116_163814_650.jpg'>
+</div>
+<div class='item'>
+<h2>089. images/20260116_163139_294.bmp</h2>
+<p>D23: wrapped=0, unwrapped=0; D50: wrapped=0, unwrapped=0</p>
+<img src='comparisons/089__images__20260116_163139_294.jpg'>
+</div>
+<div class='item'>
+<h2>090. images/20260116_160643_521.bmp</h2>
+<p>D23: wrapped=5, unwrapped=1; D50: wrapped=4, unwrapped=2</p>
+<img src='comparisons/090__images__20260116_160643_521.jpg'>
+</div>
+<div class='item'>
+<h2>091. images/20260116_163043_272.bmp</h2>
+<p>D23: wrapped=37, unwrapped=7; D50: wrapped=50, unwrapped=4</p>
+<img src='comparisons/091__images__20260116_163043_272.jpg'>
+</div>
+<div class='item'>
+<h2>092. basler_OldObj/Image__2025-12-29__16-08-22.bmp</h2>
+<p>D23: wrapped=8, unwrapped=9; D50: wrapped=11, unwrapped=9</p>
+<img src='comparisons/092__basler_OldObj__Image__2025-12-29__16-08-22.jpg'>
+</div>
+<div class='item'>
+<h2>093. images/20260116_163400_366.bmp</h2>
+<p>D23: wrapped=17, unwrapped=4; D50: wrapped=16, unwrapped=4</p>
+<img src='comparisons/093__images__20260116_163400_366.jpg'>
+</div>
+<div class='item'>
+<h2>094. basler_OldObj/Image__2025-12-29__16-21-56.bmp</h2>
+<p>D23: wrapped=47, unwrapped=7; D50: wrapped=157, unwrapped=6</p>
+<img src='comparisons/094__basler_OldObj__Image__2025-12-29__16-21-56.jpg'>
+</div>
+<div class='item'>
+<h2>095. images/20260116_161417_433.bmp</h2>
+<p>D23: wrapped=0, unwrapped=0; D50: wrapped=0, unwrapped=0</p>
+<img src='comparisons/095__images__20260116_161417_433.jpg'>
+</div>
+<div class='item'>
+<h2>096. images/20260116_155436_141.bmp</h2>
+<p>D23: wrapped=2, unwrapped=1; D50: wrapped=2, unwrapped=1</p>
+<img src='comparisons/096__images__20260116_155436_141.jpg'>
+</div>
+<div class='item'>
+<h2>097. images/20260116_163504_348.bmp</h2>
+<p>D23: wrapped=3, unwrapped=2; D50: wrapped=3, unwrapped=2</p>
+<img src='comparisons/097__images__20260116_163504_348.jpg'>
+</div>
+<div class='item'>
+<h2>098. images/20260116_163923_086.bmp</h2>
+<p>D23: wrapped=26, unwrapped=4; D50: wrapped=36, unwrapped=6</p>
+<img src='comparisons/098__images__20260116_163923_086.jpg'>
+</div>
+<div class='item'>
+<h2>099. basler_120126/Image__2026-01-12__16-31-10.bmp</h2>
+<p>D23: wrapped=8, unwrapped=8; D50: wrapped=12, unwrapped=7</p>
+<img src='comparisons/099__basler_120126__Image__2026-01-12__16-31-10.jpg'>
+</div>
+<div class='item'>
+<h2>100. images/20260116_161316_453.bmp</h2>
+<p>D23: wrapped=11, unwrapped=1; D50: wrapped=13, unwrapped=2</p>
+<img src='comparisons/100__images__20260116_161316_453.jpg'>
+</div>
+<div class='item'>
+<h2>101. basler_OldObj/Image__2025-12-29__16-20-57.bmp</h2>
+<p>D23: wrapped=59, unwrapped=0; D50: wrapped=121, unwrapped=0</p>
+<img src='comparisons/101__basler_OldObj__Image__2025-12-29__16-20-57.jpg'>
+</div>
+<div class='item'>
+<h2>102. images/20260116_161150_901.bmp</h2>
+<p>D23: wrapped=4, unwrapped=1; D50: wrapped=5, unwrapped=1</p>
+<img src='comparisons/102__images__20260116_161150_901.jpg'>
+</div>
+<div class='item'>
+<h2>103. images/20260116_160628_387.bmp</h2>
+<p>D23: wrapped=2, unwrapped=2; D50: wrapped=1, unwrapped=3</p>
+<img src='comparisons/103__images__20260116_160628_387.jpg'>
+</div>
+<div class='item'>
+<h2>104. images/20260116_163841_406.bmp</h2>
+<p>D23: wrapped=17, unwrapped=3; D50: wrapped=18, unwrapped=1</p>
+<img src='comparisons/104__images__20260116_163841_406.jpg'>
+</div>
+<div class='item'>
+<h2>105. images/20260116_160720_043.bmp</h2>
+<p>D23: wrapped=13, unwrapped=3; D50: wrapped=13, unwrapped=3</p>
+<img src='comparisons/105__images__20260116_160720_043.jpg'>
+</div>
+<div class='item'>
+<h2>106. images/20260116_163150_870.bmp</h2>
+<p>D23: wrapped=4, unwrapped=0; D50: wrapped=4, unwrapped=1</p>
+<img src='comparisons/106__images__20260116_163150_870.jpg'>
+</div>
+<div class='item'>
+<h2>107. images/20260116_163517_703.bmp</h2>
+<p>D23: wrapped=17, unwrapped=1; D50: wrapped=14, unwrapped=4</p>
+<img src='comparisons/107__images__20260116_163517_703.jpg'>
+</div>
+<div class='item'>
+<h2>108. images/20260116_155449_937.bmp</h2>
+<p>D23: wrapped=15, unwrapped=1; D50: wrapped=12, unwrapped=1</p>
+<img src='comparisons/108__images__20260116_155449_937.jpg'>
+</div>
+<div class='item'>
+<h2>109. images/20260116_163423_498.bmp</h2>
+<p>D23: wrapped=13, unwrapped=3; D50: wrapped=9, unwrapped=4</p>
+<img src='comparisons/109__images__20260116_163423_498.jpg'>
+</div>
+<div class='item'>
+<h2>110. images/20260116_161530_776.bmp</h2>
+<p>D23: wrapped=16, unwrapped=1; D50: wrapped=15, unwrapped=1</p>
+<img src='comparisons/110__images__20260116_161530_776.jpg'>
+</div>
+<div class='item'>
+<h2>111. images/20260116_163935_537.bmp</h2>
+<p>D23: wrapped=19, unwrapped=6; D50: wrapped=20, unwrapped=4</p>
+<img src='comparisons/111__images__20260116_163935_537.jpg'>
+</div>
+<div class='item'>
+<h2>112. basler_OldObj/Image__2025-12-29__16-09-15.bmp</h2>
+<p>D23: wrapped=12, unwrapped=5; D50: wrapped=18, unwrapped=5</p>
+<img src='comparisons/112__basler_OldObj__Image__2025-12-29__16-09-15.jpg'>
+</div>
+<div class='item'>
+<h2>113. images/20260116_163347_006.bmp</h2>
+<p>D23: wrapped=13, unwrapped=3; D50: wrapped=12, unwrapped=2</p>
+<img src='comparisons/113__images__20260116_163347_006.jpg'>
+</div>
+<div class='item'>
+<h2>114. images/20260116_163240_714.bmp</h2>
+<p>D23: wrapped=37, unwrapped=2; D50: wrapped=51, unwrapped=4</p>
+<img src='comparisons/114__images__20260116_163240_714.jpg'>
+</div>
+<div class='item'>
+<h2>115. basler_120126/Image__2026-01-12__16-33-57.bmp</h2>
+<p>D23: wrapped=5, unwrapped=10; D50: wrapped=10, unwrapped=10</p>
+<img src='comparisons/115__basler_120126__Image__2026-01-12__16-33-57.jpg'>
+</div>
+<div class='item'>
+<h2>116. images/20260116_163828_466.bmp</h2>
+<p>D23: wrapped=3, unwrapped=2; D50: wrapped=1, unwrapped=1</p>
+<img src='comparisons/116__images__20260116_163828_466.jpg'>
+</div>
+<div class='item'>
+<h2>117. images/20260116_161547_227.bmp</h2>
+<p>D23: wrapped=10, unwrapped=1; D50: wrapped=9, unwrapped=1</p>
+<img src='comparisons/117__images__20260116_161547_227.jpg'>
+</div>
+<div class='item'>
+<h2>118. images/20260116_155428_133.bmp</h2>
+<p>D23: wrapped=1, unwrapped=3; D50: wrapped=0, unwrapped=2</p>
+<img src='comparisons/118__images__20260116_155428_133.jpg'>
+</div>
+<div class='item'>
+<h2>119. images/20260116_161529_873.bmp</h2>
+<p>D23: wrapped=13, unwrapped=1; D50: wrapped=11, unwrapped=1</p>
+<img src='comparisons/119__images__20260116_161529_873.jpg'>
+</div>
+</body>
+</html>

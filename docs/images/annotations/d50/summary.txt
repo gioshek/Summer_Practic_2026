@@ -1,0 +1,5 @@
+Dataset: d50
+Images: 50
+Wrapped: 1431
+Unwrapped: 334
+Total boxes: 1765

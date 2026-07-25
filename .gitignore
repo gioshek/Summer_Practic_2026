@@ -4,29 +4,40 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# Окружение
+# Виртуальные окружения
 venv/
 .venv/
 venv_yolo/
 .venv-yolo/
 
-# IDE
+# IDE и системные файлы
 .vscode/
 .idea/
-
-# Системные файлы
 .DS_Store
 
-# Полный исходный датасет хранится локально
+# Полный сырой датасет хранится локально
 data/raw/
 
-# Изображения подготовленного YOLO-датасета пока не загружаются
-yolo/dataset/images/**/*.bmp
-yolo/dataset/images/**/*.png
-yolo/dataset/images/**/*.jpg
-yolo/dataset/images/**/*.jpeg
+# Генерируемые копии изображений обучающих наборов
+yolo/dataset/images/
+yolo/datasets/**/images/
 
-# Результаты запусков
+# Локальные файлы подготовки задач CVAT
+yolo/annotation/pilot_upload/files/
+yolo/annotation/pilot_upload/candy_pilot_23.zip
+yolo/annotation/incremental_upload/
+yolo/annotation/holdout119_points_upload/files/
+yolo/annotation/holdout119_points_upload/holdout119_points_task.zip
+yolo/annotation/cvat_exports/
+
+# Дубли визуализаций разметки: итоговые копии хранятся в docs/images
+yolo/annotation/qa_pilot23/annotated/
+yolo/annotation/qa_pilot23/contact_sheets/
+yolo/annotation/qa_stage5/annotated/
+yolo/annotation/qa_stage5/contact_sheet.jpg
+
+# Полные рабочие каталоги Ultralytics.
+# Отобранные веса и графики копируются в yolo/release/
 runs/
 yolo/runs/
 yolo/results/*
@@ -35,11 +46,23 @@ yolo/results/*
 # Кэши Ultralytics
 *.cache
 
-# Временные файлы
+# Дубли изображений результатов.
+# Полные D23 и D50 сохраняются, а сравнения и point-debug не дублируются.
+yolo/evaluation/holdout119_d23_vs_d50/comparisons/
+yolo/evaluation/holdout119_point_metrics/d23/
+yolo/evaluation/holdout119_point_metrics/d50/
+yolo/final_output/best_model_holdout119/annotated/
+
+# Временные архивы
 *.zip
 *.tar
 *.tar.gz
+
+# Маленькие финальные экспорты CVAT хранятся в репозитории
+!yolo/release/annotations/*.zip
+
+# Тяжёлые аудит-контактные листы
 yolo/audit/contact_sheets/
-yolo/annotation/pilot_upload/
-yolo/annotation/cvat_exports/
-yolo/annotation/qa_stage5/
+
+# Локальные отчёты инвентаризации
+project_inventory_*.txt

@@ -1,0 +1,8 @@
+slot,filename,expected_type,wrapped_count,unwrapped_count,total_boxes,label_file
+01,01__basler_120126__Image__2026-01-12__16-32-11.bmp,positive,10,10,20,/home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/qa_stage5/extracted/labels/train/01__basler_120126__Image__2026-01-12__16-32-11.txt
+07,07__basler_OldObj__Image__2025-12-29__16-04-04.bmp,positive,0,1,1,/home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/qa_stage5/extracted/labels/train/07__basler_OldObj__Image__2025-12-29__16-04-04.txt
+09,09__basler_OldObj__Image__2025-12-29__16-07-28.bmp,positive,1,9,10,/home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/qa_stage5/extracted/labels/train/09__basler_OldObj__Image__2025-12-29__16-07-28.txt
+11,11__basler_OldObj__Image__2025-12-29__16-09-21.bmp,positive,17,4,21,/home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/qa_stage5/extracted/labels/train/11__basler_OldObj__Image__2025-12-29__16-09-21.txt
+18,18__images__20260116_155352_059.bmp,positive,1,1,2,/home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/qa_stage5/extracted/labels/train/18__images__20260116_155352_059.txt
+19,19__images__20260116_155328_028.bmp,negative,0,0,0,
+22,22__images__20260116_163012_120.bmp,positive,45,7,52,/home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/qa_stage5/extracted/labels/train/22__images__20260116_163012_120.txt
