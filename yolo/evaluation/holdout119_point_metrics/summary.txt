@@ -1,0 +1,22 @@
+UNWRAPPED-CANDY POINT METRICS
+==============================
+Images: 119
+Confidence threshold: 0.25
+
+D23:
+- TP defective candies: 261
+- FN missed defective candies: 135
+- FP false defect detections: 67
+- defect recall: 65.91%
+- defect precision: 79.57%
+- defect F1: 72.10%
+- image-level accuracy: 82.35%
+
+D50:
+- TP defective candies: 364
+- FN missed defective candies: 32
+- FP false defect detections: 10
+- defect recall: 91.92%
+- defect precision: 97.33%
+- defect F1: 94.55%
+- image-level accuracy: 98.32%

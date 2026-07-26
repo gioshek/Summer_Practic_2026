@@ -1,0 +1,7 @@
+path: /home/georgy/SummerPractic2026/candy_quality_control/yolo/datasets/learning_curve/d50
+train: images/train
+val: images/train
+
+names:
+  0: wrapped
+  1: unwrapped

@@ -1,0 +1,18 @@
+Инкрементальный план выборок
+============================
+
+Seed: 42
+Пилотных изображений: 23
+Fixed validation: 05, 09, 11, 19, 22
+Final holdout: 119 изображений
+
+Holdout по группам:
+- basler_120126: 9
+- basler_OldObj: 17
+- images: 93
+
+Обучающие партии:
+- batch_to_50: 27 (basler_120126=8, basler_OldObj=11, images=8)
+- batch_to_75: 25 (basler_120126=8, basler_OldObj=9, images=8)
+- batch_to_100: 25 (basler_120126=8, basler_OldObj=9, images=8)
+- batch_to_125: 25 (basler_120126=8, basler_OldObj=9, images=8)

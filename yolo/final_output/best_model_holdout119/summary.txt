@@ -1,0 +1,11 @@
+FINAL CANDY DETECTION SUMMARY
+=============================
+Model: /home/georgy/SummerPractic2026/candy_quality_control/yolo/runs/learning_curve/d50_e25/weights/last.pt
+Images processed: 119
+Total objects: 2430
+Non-defective (wrapped): 2056
+Defective (unwrapped): 374
+Defective percent: 15.39%
+Images with detected defect: 111
+Confidence threshold: 0.25
+IoU threshold: 0.7

@@ -1,0 +1,12 @@
+Проверка первых аннотаций
+==========================
+
+Архив: /home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/cvat_exports/candy_pilot_23_stage5_review_v2.zip
+Проверено слотов: 7
+wrapped: 74
+unwrapped: 32
+Всего рамок: 106
+Ошибок: 0
+Предупреждений: 0
+
+Формальная проверка завершена успешно.

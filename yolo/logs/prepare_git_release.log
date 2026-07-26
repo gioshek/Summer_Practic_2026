@@ -1,0 +1,25 @@
+Подготовка материалов для Git...
+Dataset: d23
+Images: 23
+Wrapped: 529
+Unwrapped: 162
+Total boxes: 691
+Dataset: d50
+Images: 50
+Wrapped: 1431
+Unwrapped: 334
+Total boxes: 1765
+
+Проверка количества файлов:
+- разметка D23: 23
+- разметка D50: 50
+- holdout D23: 119
+- holdout D50: 119
+
+Размеры подготовленных материалов:
+40M	docs/images
+15M	yolo/release
+67M	yolo/evaluation/holdout119_d23_vs_d50/d23
+68M	yolo/evaluation/holdout119_d23_vs_d50/d50
+
+Подготовка завершена успешно.

@@ -1,0 +1,5 @@
+names:
+  0: wrapped
+  1: unwrapped
+path: .
+train: train.txt

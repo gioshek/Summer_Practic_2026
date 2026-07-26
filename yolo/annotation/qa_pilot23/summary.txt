@@ -1,0 +1,12 @@
+Полная проверка candy_pilot_23
+==============================
+
+Архив: /home/georgy/SummerPractic2026/candy_quality_control/yolo/annotation/cvat_exports/candy_pilot_23_complete_v1.zip
+Проверено изображений: 23
+Wrapped: 529
+Unwrapped: 162
+Всего рамок: 691
+Ошибок: 0
+Предупреждений: 0
+
+Формальная проверка завершена успешно.
